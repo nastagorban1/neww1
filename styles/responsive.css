@@ -1,8 +1,18 @@
+
+.menu-btn {
+  display: none;
+}
+
+
 @media (max-width: 768px) {
 
   .nav-list {
+    display: none;
     flex-direction: column;
     gap: 10px;
+  }
+    .nav-list.open {
+    display: flex;
   }
 
   .container {
@@ -15,6 +25,9 @@
 
   .section {
     padding: 12px;
+  }
+   .menu-btn {
+    display: block;
   }
 }
 
