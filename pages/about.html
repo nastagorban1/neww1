@@ -1,63 +1,56 @@
 <!DOCTYPE html>
 <html lang="uk">
-
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Про мене</title>
+  <meta charset="UTF-8">
+  <title>About</title>
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/responsive.css">
 </head>
 
 <body>
 
-<header>
-<nav>
-<a href="../index.html">Головна</a> |
-<a href="about.html">Про мене</a> |
-<a href="contact.html">Контакти</a>
-</nav>
+<header class="site-header">
+  <div class="container">
+    <ul class="nav-list">
+      <li><a href="../index.html">Home</a></li>
+      <li><a class="active" href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
 </header>
 
-<main>
+<main class="container">
 
-<h1>Про мене</h1>
+  <section class="section">
+    <h1>About me</h1>
+    <p>Текст про мене...</p>
+  </section>
 
-<p>Я студентка, яка вивчає веб-розробку та створення сайтів.</p>
+  <section class="section" style="display:flex; gap:20px;">
+    <div>
+      <h2>Text</h2>
+      <p>Ліва частина</p>
+    </div>
 
-<h2>Моє відео</h2>
+    <div>
+      <h2>Media</h2>
+      <video controls width="100%">
+        <source src="../assets/media/video.mp4">
+      </video>
+    </div>
+  </section>
 
-<video controls width="480">
-
-<source src="../assets/media/true.mp4" type="video/mp4">
-<source src="../assets/media/true.webm" type="video/webm">
-
-<p>
-Ваш браузер не підтримує відео.
-<a href="../assets/media/true.webm">Завантажити відео</a>
-</p>
-
-</video>
-
-<h2>Мій аудіотрек</h2>
-
-<audio controls>
-
-<source src="../assets/media/d53657d9330521.mp3" type="audio/mpeg">
-<source src="../assets/media/Atlantis.ogg" type="audio/ogg">
-
-<p>
-Ваш браузер не підтримує аудіо.
-<a href="../assets/media/Atlantis.ogg">Завантажити аудіо</a>
-
-</p>
-
-</audio>
+  <section class="section">
+    <audio controls>
+      <source src="../assets/media/audio.mp3">
+    </audio>
+  </section>
 
 </main>
 
-<footer>
-<p>© 2026 Горбань Анастасія</p>
+<footer class="site-footer">
+  <p>© 2026</p>
 </footer>
 
 </body>
-
 </html>

@@ -1,3 +1,31 @@
+# Практична 5-6
+
+Оформлення багатосторінкового HTML-сайту
+
+## Сторінки
+- index.html
+- about.html
+- contact.html
+
+## Що реалізовано
+- Flexbox layout
+- Responsive design
+- Form styling
+- Table styling
+- Navigation menu
+
+
+## Як запустити
+
+1. Завантажити проєкт
+2. Відкрити файл index.html у браузері або Live Server.
+
+
+
+
+
+
+
 # Практична робота №1
 
 Тема: Основи HTML.

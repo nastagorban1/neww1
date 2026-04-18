@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+
+  .nav-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container {
+    width: calc(100% - 20px);
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .section {
+    padding: 12px;
+  }
+}
+

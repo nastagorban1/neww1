@@ -1,0 +1,116 @@
+:root {
+  --primary: #1d4e89;
+  --accent: #ffb703;
+  --bg: #f7f9fc;
+  --text: #1f2937;
+  --border: #d9e2ec;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* container */
+.container {
+  width: min(1100px, 100% - 32px);
+  margin: 0 auto;
+}
+
+/* HEADER */
+.site-header {
+  background: var(--primary);
+  color: white;
+  padding: 15px 0;
+}
+
+.nav-list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-list a:hover {
+  color: var(--accent);
+}
+
+.active {
+  color: var(--accent);
+}
+
+/* sections */
+.section {
+  background: white;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* images */
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 10px;
+}
+
+th {
+  background: var(--primary);
+  color: white;
+}
+
+/* FORM */
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+input:focus, textarea:focus {
+  border-color: var(--primary);
+  outline: none;
+}
+
+button {
+  background: var(--primary);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* footer */
+.site-footer {
+  text-align: center;
+  padding: 15px;
+  background: var(--primary);
+  color: white;
+}
