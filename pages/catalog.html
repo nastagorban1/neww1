@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalog</title>
+
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/responsive.css">
+
+  <script src="../js/main.js" defer></script>
+  <script src="../js/catalog.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <button class="menu-btn">Menu</button>
+
+    <ul class="nav-list">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a class="active" href="catalog.html">Catalog</a></li>
+    </ul>
+
+    <button class="theme-btn">Theme</button>
+  </div>
+</header>
+
+<main class="container">
+
+  <section class="section">
+    <h1>Course Catalog</h1>
+
+    <input type="text" id="search" placeholder="Search course...">
+
+    <select id="categoryFilter">
+      <option value="all">All</option>
+      <option value="frontend">Frontend</option>
+      <option value="design">Design</option>
+    </select>
+
+    <select id="sortSelect">
+      <option value="default">Default</option>
+      <option value="title">By title</option>
+      <option value="price">By price</option>
+    </select>
+  </section>
+
+  <section class="section">
+    <p id="loading">Завантаження...</p>
+    <div id="catalog"></div>
+  </section>
+
+</main>
+
+<button class="to-top">↑</button>
+
+<footer class="site-footer">
+  <p>© <span id="year"></span> Горбань Анастасія</p>
+</footer>
+
+</body>
+</html>

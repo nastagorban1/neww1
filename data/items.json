@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "HTML Course",
+    "category": "frontend",
+    "description": "Основи HTML для початківців",
+    "price": 100,
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "title": "CSS Course",
+    "category": "frontend",
+    "description": "Вивчення CSS та адаптивної верстки",
+    "price": 120,
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "title": "JavaScript Course",
+    "category": "frontend",
+    "description": "Інтерактивні сайти на JavaScript",
+    "price": 150,
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "title": "UI Design",
+    "category": "design",
+    "description": "Основи UI дизайну",
+    "price": 130,
+    "rating": 4
+  },
+  {
+    "id": 5,
+    "title": "React Basics",
+    "category": "frontend",
+    "description": "Початок роботи з React",
+    "price": 200,
+    "rating": 5
+  },
+  {
+    "id": 6,
+    "title": "Figma Course",
+    "category": "design",
+    "description": "Робота з Figma",
+    "price": 110,
+    "rating": 4
+  }
+]
